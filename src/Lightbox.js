@@ -36,6 +36,7 @@ class Lightbox extends Component {
 		this.handleImageClick = this.handleImageClick.bind(this);
 		this.handleKeyboardInput = this.handleKeyboardInput.bind(this);
 		this.handleResize = this.handleResize.bind(this);
+		this.state = {};
 	}
 	componentWillReceiveProps (nextProps) {
 		if (nextProps.isOpen && nextProps.enableKeyboardInput) {
